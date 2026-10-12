@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261012-04-4942f96","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/486a2977e39ad380.telemetry_sdk.js" integrity="sha512-6RGhG0lZ6QriXSp9fyZ35krENb9O9A9i6UklGaEPAGRJqlg443gszr5+rhcE8tJU48EjVhUuSuTu4g7tRHuFHA=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101017">
+  <title>Siti Code — Project workspace</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+  <style>
+    /* styles.css — visual layer of this standalone Codelet */
+    :root{--bg:#101017;--panel:#1b1c28;--panel2:#222432;--border:#343647;--text:#f3f3fa;--muted:#a6a8bd;--accent:#a981ff;--cyan:#54eadb}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif}
+    button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.55;cursor:not-allowed}
+    :focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+    .app-shell{width:100%;min-height:100%;background:radial-gradient(ellipse at 85% 0%,#47336655,transparent 36%),var(--bg)}
+    .layout{display:grid;grid-template-columns:1fr;min-height:100%}
+    .rail{display:none}.content{min-width:0;padding-bottom:86px}.topbar{display:flex;align-items:center;gap:12px;padding:14px 18px;border-bottom:1px solid var(--border);background:#171721d9;backdrop-filter:blur(18px);position:sticky;top:0;z-index:10}
+    .brand{display:flex;align-items:center;gap:10px;min-width:0;margin-right:auto}.brand img{width:40px;height:40px;object-fit:cover;border-radius:12px}.brand-name{font-weight:700;white-space:nowrap;letter-spacing:-.04em}
+    .top-select{max-width:150px}.icon-btn,.nav-btn,.btn,.chip,.file-btn,.tab-btn{border:1px solid var(--border);background:var(--panel2);color:var(--text);border-radius:11px;min-height:42px;padding:9px 13px;transition:background .18s,border-color .18s,transform .18s}
+    .icon-btn:hover,.nav-btn:hover,.btn:hover,.chip:hover,.file-btn:hover,.tab-btn:hover{border-color:var(--accent);transform:translateY(-1px)}
+    .btn.primary{background:linear-gradient(115deg,#9364e9,#4fcfc9);border:0;color:#0b1020;font-weight:700}.btn.ghost{background:transparent}.btn.danger{color:#ffb6c1}
+    .mobile-nav{position:fixed;bottom:0;left:0;right:0;z-index:30;display:flex;justify-content:space-around;background:#181923f2;border-top:1px solid var(--border);padding:8px 5px max(8px,env(safe-area-inset-bottom));backdrop-filter:blur(16px)}
+    .nav-btn{background:transparent;border:0;display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px;font-size:11px;min-width:53px}.nav-btn.active{color:var(--cyan)}
+    main{width:100%;max-width:1450px;margin:auto;padding:24px 18px 44px}
+    .section{display:none;animation:appear .25s ease}.section.active{display:block}@keyframes appear{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+    h1,h2,h3,p{margin-top:0}h1{font-size:clamp(28px,4vw,44px);letter-spacing:-.055em;line-height:1.1}h2{font-size:21px;letter-spacing:-.035em}h3{font-size:16px}.muted{color:var(--muted)}.eyebrow{font-family:"Space Mono",monospace;color:var(--cyan);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+    .section-heading{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:22px}.actions{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+    .panel,.project-card{background:#1c1d2bcf;border:1px solid var(--border);border-radius:19px;box-shadow:0 10px 35px #00000022}
+    .panel{padding:19px}.project-grid{display:grid;gap:13px;grid-template-columns:repeat(auto-fill,minmax(min(100%,270px),1fr))}
+    .project-card{padding:19px;display:flex;flex-direction:column;gap:13px}.project-card h3{font-size:19px;margin:0;word-break:break-word}.project-card p{margin:0}.project-card .bottom{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:8px}
+    .badge{display:inline-flex;align-items:center;border:1px solid #6e55a6;background:#a981ff19;color:#cbb5ff;padding:4px 8px;border-radius:7px;font:11px "Space Mono",monospace}.badge.cyan{border-color:#39837e;background:#54eadb13;color:#8df8e9}.badge.warn{border-color:#946d40;color:#ffd394;background:#946d4024}
+    .stack{display:grid;gap:18px}.two-col{display:grid;gap:18px}.field{display:grid;gap:7px}.field label{font-weight:600;font-size:13px}.input{width:100%;min-height:43px;background:#13141e;border:1px solid var(--border);border-radius:10px;color:var(--text);padding:10px 12px;outline:none}.input:focus{border-color:var(--cyan)}textarea.input{resize:vertical;min-height:88px}
+    .toolbar{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:18px}.toolbar .input{flex:1;min-width:155px}.language-grid{display:flex;flex-wrap:wrap;gap:8px}.chip.active,.file-btn.active,.tab-btn.active{border-color:var(--cyan);background:#54eadb1c;color:#a1fff3}
+    .workspace-grid{display:grid;gap:14px}.file-list{display:flex;gap:7px;overflow:auto;padding-bottom:3px}.file-btn{white-space:nowrap;text-align:left}.editor{width:100%;min-height:300px;resize:vertical;background:#11131d;color:#b9f4e7;border:1px solid var(--border);border-radius:12px;padding:17px;font:12px/1.7 "Space Mono",monospace;tab-size:2}
+    .preview-frame{width:100%;height:330px;border:1px solid var(--border);border-radius:12px;background:#fff}.timeline{list-style:none;padding:0;margin:0}.timeline li{padding:11px 0 11px 17px;border-left:1px solid #5e527c;position:relative;font-size:13px}.timeline li:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--cyan);position:absolute;left:-4px;top:17px}
+    .bug-row{display:flex;flex-wrap:wrap;align-items:center;gap:9px;padding:13px 0;border-bottom:1px solid var(--border)}.bug-row:last-child{border:0}.bug-row .bug-text{flex:1;min-width:180px}.code-guide{font:12px/1.8 "Space Mono",monospace;color:#b5c0d9;overflow-wrap:anywhere}
+    .chat-log{min-height:190px;max-height:330px;overflow:auto;display:flex;flex-direction:column;gap:10px;padding:12px 0}.bubble{max-width:90%;padding:12px 14px;border-radius:13px;background:var(--panel2);font-size:13px;white-space:pre-wrap}.bubble.user{align-self:flex-end;background:#584378}.bubble.bot{align-self:flex-start;border:1px solid #348a86}.modal-backdrop{position:fixed;inset:0;background:#080910cf;z-index:60;display:grid;place-items:center;padding:18px}.modal-backdrop[hidden],.section[hidden]{display:none!important}.modal{width:min(100%,470px);max-height:90%;overflow:auto}.toast{position:fixed;z-index:90;bottom:88px;left:50%;transform:translateX(-50%);background:#343046;border:1px solid var(--accent);color:#fff;border-radius:12px;padding:11px 16px;max-width:min(90%,450px);box-shadow:0 12px 35px #0008}.toast[hidden]{display:none}
+    body.light{--bg:#f2f2f8;--panel:#fff;--panel2:#e9e9f4;--border:#c8c9d8;--text:#17182a;--muted:#55596d;--accent:#7548c4;--cyan:#087d79}
+    body.light .panel,body.light .project-card{background:#ffffffed}body.light .topbar,body.light .mobile-nav{background:#ffffffed}body.light .input,body.light .editor{background:#f4f4fb;color:#172b35}body.light .badge.cyan{color:#076d68}body.light .badge{color:#5f3aa7}body.light .code-guide{color:#38415d}body.compact .panel,body.compact .project-card{padding:13px}
+    @media(min-width:800px){.layout{grid-template-columns:78px minmax(0,1fr)}.rail{display:flex;flex-direction:column;align-items:center;gap:8px;padding:20px 8px;border-right:1px solid var(--border);background:#171721;position:sticky;top:0;height:calc(100 * min(var(--vh, 1vh), 1vh))}.rail .nav-btn{width:62px}.mobile-nav{display:none}.content{padding-bottom:0}.two-col{grid-template-columns:minmax(0,1.6fr) minmax(270px,1fr)}.workspace-grid{grid-template-columns:185px minmax(0,1fr)}.file-list{flex-direction:column}.top-select{max-width:220px}.toast{bottom:24px}}
+    @media(max-width:420px){.brand-name{font-size:14px}.topbar{gap:7px;padding:11px}.brand img{width:34px;height:34px}.top-select{max-width:105px}.topbar .icon-btn{padding:7px;min-width:38px}main{padding:20px 13px 35px}}
+  </style>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="/_sdk/6739934784996595.data_sdk.js" type="text/javascript" integrity="sha512-aHih8MxSNczT9xRyOUq01Vmx230URMZj+8SR3fa6IZ4ScQSlODcJ0UFHLNv4yeUNpouT9N1Dq//VhTGgYsIH3g=="></script>
+  <script src="/_sdk/f35087cf86290a33.editing_sdk.js" type="text/javascript" integrity="sha512-0mbfNVTwbL0jObU6oAxxR5ze1N+oYmbuEj9U1b4T49vSBeEkZoZHWPh6ZDT5m6/VH3g3YGCJo2G9/z6qkXc02w=="></script>
+  <script src="/_sdk/056c9619db603d29.resizing_sdk.js" type="text/javascript" integrity="sha512-M+H3L4m9QQRx/o9ibl2pgmK12j+m7IzyXqQYPu51UsEwWvMSULNPd1Mc6Ou1S2PXfxZHFCe8Axqt+diUPCpRiw=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(16, 16, 23);">
+  <div class="app-shell">
+   <div class="layout">
+    <nav class="rail" aria-label="Main navigation"><img data-template-id="rail-logo" class="canva-image" loading="lazy" style="width:45px;height:45px;border-radius:13px;object-fit:cover;margin-bottom:20px" src="canva://MAHXygpZTyA/1" alt="Siti Code whistle logo with purple and cyan code brackets"> <button class="nav-btn active" data-view="home" type="button">⌂<span>Home</span></button> <button class="nav-btn" data-view="workspace" type="button">⌘<span>Work</span></button> <button class="nav-btn" data-view="bugs" type="button">◇<span>Bugs</span></button> <button class="nav-btn" data-view="assistant" type="button">✦<span>AI</span></button> <button class="nav-btn" data-view="settings" type="button">⚙<span>Settings</span></button>
+    </nav>
+    <div class="content">
+     <header class="topbar">
+      <div class="brand"><img data-template-id="header-logo" class="canva-image" loading="lazy" src="canva://MAHXygpZTyA/1" alt="Siti Code whistle logo with purple and cyan code brackets"> <span data-template-id="brand-name" class="canva-text brand-name" style="color: rgb(243, 243, 250); font-weight: 700; font-style: normal; font-size: 16px;">Siti Code</span>
+      </div><label class="sr-only" for="project-switcher">Switch project</label> <select id="project-switcher" class="input top-select" aria-label="Switch project"></select> <button id="notifications-btn" class="icon-btn" type="button" aria-label="View notifications" title="Notifications">♧</button> <button id="install-btn" class="btn ghost" type="button" hidden="">Install</button>
+     </header>
+     <main>
+      <section id="view-home" class="section active" aria-labelledby="home-heading">
+       <div class="section-heading">
+        <div>
+         <p class="eyebrow">Your creative command center</p>
+         <h1 id="home-heading" data-template-id="home-heading" class="canva-text" style="color: rgb(243, 243, 250); font-weight: 700; font-style: normal; font-size: 32px;">Make something brilliant.</h1>
+         <p data-template-id="home-subtitle" class="canva-text muted" style="color: rgb(166, 168, 189); font-weight: 400; font-style: normal; font-size: 16px;">Your projects, files and ideas — all in one calm workspace.</p>
+        </div><button class="btn primary" data-view="new" type="button">+ New project</button>
+       </div>
+       <div class="toolbar">
+        <label class="sr-only" for="search">Search projects and files</label><input id="search" class="input" type="search" placeholder="Search projects and files…"><label class="sr-only" for="language-filter">Filter language</label><select id="language-filter" class="input" style="max-width:180px"></select><label class="sr-only" for="sort-projects">Sort projects</label><select id="sort-projects" class="input" style="max-width:180px"><option value="recent">Recently edited</option><option value="name">Name A–Z</option></select>
+       </div>
+       <div class="section-heading">
+        <h2>Recent projects</h2><button class="btn ghost" data-view="assistant" type="button">✦ Ask Siti AI</button>
+       </div>
+       <div id="project-grid" class="project-grid"></div>
+       <p id="projects-empty" class="muted" hidden="">No matching projects. Try another search or create one.</p>
+       <div class="two-col" style="margin-top:22px">
+        <div class="panel">
+         <h2>Recent activity</h2>
+         <ol id="global-activity" class="timeline"></ol>
+        </div>
+        <div class="panel">
+         <h2>Supported workflows</h2>
+         <p class="muted">Create here, then export files for your preferred editor. No live IDE sync.</p>
+         <div class="language-grid">
+          <span class="badge cyan">VS Code</span><span class="badge cyan">Cursor</span><span class="badge cyan">PyCharm</span><span class="badge cyan">Replit</span><span class="badge cyan">Browser editor</span>
+         </div>
+         <p class="muted" style="margin:18px 0 0">Python · JavaScript · TypeScript · HTML · CSS · JSON · Java · C++ · C# · Go · Rust · PHP · SQL</p>
+        </div>
+       </div>
+      </section>
+      <section id="view-new" class="section" aria-labelledby="new-heading">
+       <div class="section-heading">
+        <div>
+         <p class="eyebrow">A fresh start</p>
+         <h1 id="new-heading">New project</h1>
+         <p class="muted">Pick a starting language and make it yours.</p>
+        </div>
+       </div>
+       <form id="new-form" class="panel stack" style="max-width:730px">
+        <div class="field">
+         <label for="new-name">Project name</label><input id="new-name" class="input" required="" maxlength="65" placeholder="My next big idea">
+        </div>
+        <div class="field">
+         <label for="new-description">Description</label><textarea id="new-description" class="input" maxlength="250" placeholder="What are you building?"></textarea>
+        </div>
+        <div class="field">
+         <label for="new-language">Primary language</label><select id="new-language" class="input"></select>
+        </div>
+        <div class="field">
+         <label for="new-environment">Preferred export workflow</label><select id="new-environment" class="input"><option>Browser editor</option><option>VS Code</option><option>Cursor</option><option>PyCharm</option><option>Replit</option></select>
+        </div>
+        <p class="muted" style="margin:0">Editor names describe compatible workflows and export targets, not connected accounts.</p>
+        <div class="actions">
+         <button class="btn primary" type="submit">Create project</button><button class="btn ghost" data-view="home" type="button">Cancel</button>
+        </div>
+       </form>
+      </section>
+      <section id="view-workspace" class="section" aria-labelledby="workspace-heading">
+       <div class="section-heading">
+        <div>
+         <p class="eyebrow">Workspace / <span id="workspace-language"></span></p>
+         <h1 id="workspace-heading">Project workspace</h1>
+         <p id="workspace-description" class="muted"></p>
+        </div>
+        <div class="actions">
+         <button id="rename-btn" class="btn ghost" type="button">Rename</button><button id="save-btn" class="btn primary" type="button">Save</button><button id="run-btn" class="btn" type="button">▶ Run / preview</button><button id="export-btn" class="btn" type="button">Export</button><button id="share-btn" class="btn" type="button">Share</button>
+        </div>
+       </div>
+       <div class="workspace-grid">
+        <aside class="panel">
+         <h2>Files</h2>
+         <div id="file-list" class="file-list" role="tablist" aria-label="Project files"></div>
+         <p class="muted" style="font-size:12px;margin:17px 0 0">Select a file to edit. Save to keep your changes.</p>
+        </aside>
+        <div class="stack">
+         <div class="panel">
+          <div class="section-heading" style="margin-bottom:12px">
+           <h2 id="active-file-label" style="margin:0">index.html</h2><span id="save-state" class="badge cyan">Saved locally</span>
+          </div><label class="sr-only" for="code-editor">Code editor</label><textarea id="code-editor" class="editor" spellcheck="false"></textarea>
+         </div>
+         <div class="panel" id="preview-panel" hidden="">
+          <h2>Browser preview</h2><iframe id="preview-frame" class="preview-frame" sandbox="allow-scripts" title="Project HTML preview"></iframe>
+          <p class="muted" style="font-size:12px;margin:9px 0 0">Local preview only. It does not run external IDE integrations.</p>
+         </div>
+         <div class="panel">
+          <h2>Architecture · linked files</h2>
+          <div class="code-guide">
+           index.html → styles.css + app.js<br>
+           index.html → manifest.json → service-worker.js<br>
+           README.md → project notes
+          </div>
+          <p class="muted" style="font-size:12px;margin:12px 0 0">This standalone Codelet bundles its own interface. Export creates a downloadable project file set.</p>
+         </div>
+        </div>
+       </div>
+       <div class="two-col" style="margin-top:16px">
+        <div class="panel">
+         <div class="section-heading">
+          <h2>Project issues</h2><button class="btn ghost" data-view="bugs" type="button">Bug center →</button>
+         </div>
+         <div id="workspace-bugs"></div>
+        </div>
+        <div class="panel">
+         <h2>Project history</h2>
+         <ol id="project-activity" class="timeline"></ol>
+        </div>
+       </div>
+      </section>
+      <section id="view-bugs" class="section" aria-labelledby="bugs-heading">
+       <div class="section-heading">
+        <div>
+         <p class="eyebrow">Catch it early</p>
+         <h1 id="bugs-heading">Bug center</h1>
+         <p class="muted">Demo diagnostics inspect common patterns in the current project.</p>
+        </div>
+        <div class="actions">
+         <button id="diagnostics-btn" class="btn primary" type="button">Run diagnostics</button><button id="clear-bugs-btn" class="btn ghost" type="button">Clear all</button>
+        </div>
+       </div>
+       <div class="toolbar" role="group" aria-label="Filter issues">
+        <button class="chip active" data-bug-filter="all" type="button">All</button><button class="chip" data-bug-filter="error" type="button">Errors</button><button class="chip" data-bug-filter="warning" type="button">Warnings</button>
+       </div>
+       <div class="panel" id="bugs-list"></div>
+      </section>
+      <section id="view-assistant" class="section" aria-labelledby="assistant-heading">
+       <div class="section-heading">
+        <div>
+         <p class="eyebrow">Creative companion</p>
+         <h1 id="assistant-heading">Siti AI assistant</h1>
+         <p class="muted">Simulated suggestions only — no model or external API is connected.</p>
+        </div>
+       </div>
+       <div class="panel" style="max-width:810px">
+        <div class="language-grid" id="suggestions">
+         <button class="chip" type="button">Explain this error</button><button class="chip" type="button">Generate a component</button><button class="chip" type="button">Review my code</button><button class="chip" type="button">Make this mobile friendly</button>
+        </div>
+        <div id="chat-log" class="chat-log" role="log" aria-live="polite"></div>
+        <form id="chat-form" class="actions">
+         <label class="sr-only" for="chat-input">Message for simulated assistant</label><input id="chat-input" class="input" style="flex:1;min-width:180px" required="" maxlength="500" placeholder="Ask about your project…"><button class="btn primary" type="submit">Send</button>
+        </form>
+       </div>
+      </section>
+      <section id="view-settings" class="section" aria-labelledby="settings-heading">
+       <div class="section-heading">
+        <div>
+         <p class="eyebrow">Make it yours</p>
+         <h1 id="settings-heading">Settings</h1>
+        </div>
+       </div>
+       <div class="panel stack" style="max-width:650px">
+        <div class="field">
+         <label for="theme-select">Theme</label><select id="theme-select" class="input"><option value="dark">Dark</option><option value="light">Light</option></select>
+        </div>
+        <div class="field">
+         <label for="density-select">Display density</label><select id="density-select" class="input"><option value="comfortable">Comfortable</option><option value="compact">Compact</option></select>
+        </div>
+        <div class="field">
+         <label for="preference-language">Preferred project language</label><select id="preference-language" class="input"></select>
+        </div>
+        <div class="field">
+         <label for="notification-select">Notifications</label><select id="notification-select" class="input"><option value="on">On</option><option value="off">Off</option></select>
+        </div>
+        <div>
+         <h2>Install &amp; offline</h2>
+         <p id="offline-status" class="muted">Checking browser capabilities…</p>
+         <p class="muted">This embedded version works without installation. A separately hosted PWA requires a published manifest and service worker.</p>
+        </div>
+       </div>
+      </section>
+     </main>
+     <nav class="mobile-nav" aria-label="Mobile navigation">
+      <button class="nav-btn active" data-view="home" type="button">⌂<span>Home</span></button><button class="nav-btn" data-view="workspace" type="button">⌘<span>Work</span></button><button class="nav-btn" data-view="bugs" type="button">◇<span>Bugs</span></button><button class="nav-btn" data-view="assistant" type="button">✦<span>AI</span></button><button class="nav-btn" data-view="settings" type="button">⚙<span>Settings</span></button>
+     </nav>
+    </div>
+   </div>
+  </div>
+  <div id="modal-backdrop" class="modal-backdrop" hidden="">
+   <div class="panel modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <h2 id="modal-title">Rename project</h2>
+    <form id="rename-form" class="stack">
+     <div class="field">
+      <label for="rename-input">Project name</label><input id="rename-input" class="input" maxlength="65" required="">
+     </div>
+     <div class="actions">
+      <button class="btn primary" type="submit">Save name</button><button id="modal-cancel" class="btn ghost" type="button">Cancel</button>
+     </div>
+    </form>
+   </div>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden=""></div>
+  <script>
+/* app.js — state, navigation and interactions. Project files are data, not executable host-page code. */
+(() => {
+  const KEY='siti-code-standalone-v1';
+  const languages=['Python','JavaScript','TypeScript','HTML','CSS','JSON','Java','C++','C#','Go','Rust','PHP','SQL'];
+  const files=['index.html','styles.css','app.js','manifest.json','service-worker.js','README.md'];
+  const $=id=>document.getElementById(id);
+  const escapeHTML=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const now=()=>new Date().toISOString();
+  const starter=(name)=>({
+    'index.html':'<!DOCTYPE html>\\n<html lang="en">\\n<head>\\n  <meta charset="UTF-8">\\n  <meta name="viewport" content="width=device-width, initial-scale=1">\\n  <link rel="stylesheet" href="styles.css">\\n  <script src="app.js"><\\/script>\\n</head>\\n<body>\\n  <main><h1>'+escapeHTML(name)+'</h1><p>Made with Siti Code.</p></main>\\n</body>\\n</html>',
+    'styles.css':'body { margin: 0; padding: 3rem; font-family: sans-serif; background: #11121b; color: #f4f4fc; }\\nh1 { color: #a981ff; }',
+    'app.js':'document.addEventListener("DOMContentLoaded", () => {\\n  // Start building here.\\n});',
+    'manifest.json':JSON.stringify({name,short_name:name.slice(0,12),start_url:'.',display:'standalone',background_color:'#101017',theme_color:'#101017'},null,2),
+    'service-worker.js':'// Publish this file separately to enable offline caching.\\nconst CACHE = "siti-project-v1";\\nself.addEventListener("install", event => event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(["./","./index.html","./styles.css","./app.js","./manifest.json"]))));\\nself.addEventListener("fetch", event => event.respondWith(caches.match(event.request).then(response => response || fetch(event.request))));',
+    'README.md':'# '+name+'\\n\\nA project created in Siti Code. Export these files for use in your preferred editor.'
+  });
+  const sample=(id,name,language,description,environment,days)=>({id,name,language,description,environment,edited:new Date(Date.now()-days*86400000).toISOString(),status:'Ready',files:starter(name)});
+  const initial=()=>({projects:[sample('p1','Orbit landing','HTML','A compact landing page experiment.','Browser editor',0),sample('p2','Data sketchpad','Python','Small scripts and useful notes.','PyCharm',2),sample('p3','Pocket dashboard','TypeScript','Exploring responsive interface patterns.','VS Code',4)],selected:'p1',preferences:{theme:'dark',density:'comfortable',language:'JavaScript',notifications:'on'},bugs:[{id:'b1',project:'p1',severity:'warning',file:'index.html',line:6,message:'Add a page title to improve accessibility.',resolved:false},{id:'b2',project:'p3',severity:'error',file:'app.js',line:8,message:'Demo issue: check a possibly undefined value.',resolved:false}],activity:[{id:'a1',project:'p1',kind:'edited',time:now()},{id:'a2',project:'p2',kind:'run',time:new Date(Date.now()-86400000).toISOString()},{id:'a3',project:'p3',kind:'created',time:new Date(Date.now()-4*86400000).toISOString()}]});
+  let state;try{state=JSON.parse(localStorage.getItem(KEY))||initial();if(!Array.isArray(state.projects)||!Array.isArray(state.bugs)||!Array.isArray(state.activity))throw Error()}catch{state=initial()}
+  let activeFile='index.html',bugFilter='all',view='home',deferredInstall=null,toastTimer;
+  const persist=()=>{try{localStorage.setItem(KEY,JSON.stringify(state))}catch{toast('Browser storage is unavailable or full. Export your work.')}};
+  const current=()=>state.projects.find(p=>p.id===state.selected)||state.projects[0];
+  const date=s=>new Date(s).toLocaleString(undefined,{month:'short',day:'numeric',hour:'numeric',minute:'2-digit'});
+  function toast(message){const el=$('toast');el.textContent=message;el.hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.hidden=true,3600)}
+  function activity(kind,p){state.activity.unshift({id:crypto.randomUUID?.()||String(Date.now()+Math.random()),project:p.id,kind,time:now()});state.activity=state.activity.slice(0,100);persist();renderActivity()}
+  function show(next){view=next;document.querySelectorAll('.section').forEach(el=>el.classList.toggle('active',el.id==='view-'+next));document.querySelectorAll('.nav-btn').forEach(el=>el.classList.toggle('active',el.dataset.view===next));if(next==='workspace')renderWorkspace();if(next==='bugs')renderBugs();if(next==='home')renderHome();window.scrollTo({top:0,behavior:'smooth'})}
+  function renderSwitch(){const el=$('project-switcher');el.replaceChildren();state.projects.forEach(p=>{const o=new Option(p.name,p.id);el.add(o)});if(current()){state.selected=current().id;el.value=state.selected}}
+  function renderHome(){
+    const q=$('search').value.trim().toLowerCase(),lang=$('language-filter').value,sort=$('sort-projects').value;
+    const matches=state.projects.filter(p=>(!lang||p.language===lang)&&(!q||[p.name,p.description,p.language,...Object.keys(p.files),...Object.values(p.files)].join(' ').toLowerCase().includes(q))).sort((a,b)=>sort==='name'?a.name.localeCompare(b.name):new Date(b.edited)-new Date(a.edited));
+    $('project-grid').replaceChildren();$('projects-empty').hidden=matches.length!==0;
+    matches.forEach(p=>{const card=document.createElement('article');card.className='project-card';card.innerHTML='<div class="actions"><span class="badge">'+escapeHTML(p.language)+'</span><span class="badge cyan">'+escapeHTML(p.status)+'</span></div><h3>'+escapeHTML(p.name)+'</h3><p class="muted">'+escapeHTML(p.description||'No description yet.')+'</p><p class="muted" style="font-size:12px">Edited '+escapeHTML(date(p.edited))+' · '+escapeHTML(p.environment)+'</p><div class="bottom"><button class="btn primary" type="button">Open project →</button><span class="muted" style="font-size:12px">'+Object.keys(p.files).length+' files</span></div>';card.querySelector('button').onclick=()=>{state.selected=p.id;persist();renderSwitch();activeFile='index.html';show('workspace')};$('project-grid').append(card)});
+    renderActivity();
+  }
+  function renderActivity(){
+    const fill=(node,items)=>{node.replaceChildren();if(!items.length){const li=document.createElement('li');li.className='muted';li.textContent='No activity yet.';node.append(li);return}items.slice(0,7).forEach(a=>{const p=state.projects.find(x=>x.id===a.project),li=document.createElement('li');li.innerHTML='<strong>'+escapeHTML(p?.name||'Project')+'</strong> · '+escapeHTML(a.kind)+'<br><span class="muted">'+escapeHTML(date(a.time))+'</span>';node.append(li)})};fill($('global-activity'),state.activity);fill($('project-activity'),state.activity.filter(a=>a.project===current()?.id))
+  }
+  function renderWorkspace(){
+    const p=current();if(!p){show('home');return}
+    $('workspace-heading').textContent=p.name;$('workspace-description').textContent=p.description||'Your project is ready to build.';$('workspace-language').textContent=p.language+' · '+p.environment;
+    $('file-list').replaceChildren();Object.keys(p.files).forEach(file=>{const b=document.createElement('button');b.type='button';b.className='file-btn'+(activeFile===file?' active':'');b.textContent=file;b.setAttribute('role','tab');b.setAttribute('aria-selected',String(activeFile===file));b.onclick=()=>switchFile(file);$('file-list').append(b)});
+    $('active-file-label').textContent=activeFile;$('code-editor').value=p.files[activeFile]??'';$('save-state').textContent='Saved locally';renderActivity();renderWorkspaceBugs()
+  }
+  function save(){const p=current();if(!p)return;p.files[activeFile]=$('code-editor').value;p.edited=now();persist();activity('edited',p);$('save-state').textContent='Saved locally';renderSwitch();toast('File saved in this browser')}
+  function switchFile(file){if($('save-state').textContent==='Unsaved changes')save();activeFile=file;renderWorkspace()}
+  function renderWorkspaceBugs(){const list=$('workspace-bugs');list.replaceChildren();const bugs=state.bugs.filter(b=>b.project===current()?.id&&!b.resolved);if(!bugs.length){list.textContent='No open issues for this project.';list.className='muted';return}list.className='';bugs.slice(0,3).forEach(b=>{const p=document.createElement('p');p.className='muted';p.textContent=`${b.severity.toUpperCase()} · ${b.file}:${b.line} — ${b.message}`;list.append(p)})}
+  function renderBugs(){
+    const list=$('bugs-list');list.replaceChildren();const visible=state.bugs.filter(b=>b.project===current()?.id&&!b.resolved&&(bugFilter==='all'||b.severity===bugFilter));
+    if(!visible.length){const p=document.createElement('p');p.className='muted';p.textContent='All clear for this filter. Run diagnostics to check again.';list.append(p)}
+    visible.forEach(b=>{const row=document.createElement('div');row.className='bug-row';const badge=document.createElement('span');badge.className='badge '+(b.severity==='warning'?'warn':'');badge.textContent=b.severity;const message=document.createElement('span');message.className='bug-text';message.textContent=`${b.file}:${b.line} — ${b.message}`;const button=document.createElement('button');button.className='btn ghost';button.type='button';button.textContent='Mark resolved';button.onclick=()=>{b.resolved=true;activity('bug resolved',current());persist();renderBugs();renderWorkspaceBugs();toast('Issue marked resolved')};row.append(badge,message,button);list.append(row)})
+  }
+  function diagnostics(){
+    const p=current();if(!p)return;
+    const checks=[{file:'index.html',severity:'warning',test:!/<title[\s>]/i.test(p.files['index.html']||''),line:4,message:'Add a page title to improve accessibility.'},{file:'index.html',severity:'warning',test:!/<meta[^>]+name=["']viewport/i.test(p.files['index.html']||''),line:5,message:'Add a viewport meta tag for mobile layouts.'},{file:'app.js',severity:'error',test:/\bTODO\b|throw new Error/i.test(p.files['app.js']||''),line:1,message:'Review an unfinished TODO or thrown error.'}];
+    let found=0;checks.forEach(c=>{if(!c.test)return;const existing=state.bugs.find(b=>b.project===p.id&&b.file===c.file&&b.message===c.message&&!b.resolved);if(!existing){state.bugs.push({id:crypto.randomUUID?.()||String(Math.random()),project:p.id,severity:c.severity,file:c.file,line:c.line,message:c.message,resolved:false});found++}});
+    activity('run',p);persist();renderBugs();renderWorkspaceBugs();toast(found?`${found} new issue${found===1?'':'s'} found`:'Diagnostics complete. No new issues.')
+  }
+  const botReply=text=>{const t=text.toLowerCase();if(t.includes('error'))return 'Simulated suggestion: open Bug center, check the reported file and line, then verify the value before using it.';if(t.includes('component'))return 'Simulated suggestion: start with a semantic <section>, keep styles in styles.css, and attach behavior in app.js.';if(t.includes('mobile'))return 'Simulated suggestion: use a viewport meta tag, flexible widths, and test touch targets at narrow screen sizes.';if(t.includes('review'))return 'Simulated suggestion: check heading order, accessible labels, unused code, and whether each action has a visible result.';return 'Simulated suggestion: break the task into a small change, preview it, and run diagnostics. This assistant does not contact an AI model.'};
+  function bubble(text,type){const el=document.createElement('div');el.className='bubble '+type;el.textContent=text;$('chat-log').append(el);$('chat-log').scrollTop=$('chat-log').scrollHeight}
+  function applyPreferences(){document.body.classList.toggle('light',state.preferences.theme==='light');document.body.classList.toggle('compact',state.preferences.density==='compact');$('theme-select').value=state.preferences.theme;$('density-select').value=state.preferences.density;$('preference-language').value=state.preferences.language;$('notification-select').value=state.preferences.notifications}
+  function exportFiles(){
+    const p=current();if(!p)return;if(view==='workspace'&&$('save-state').textContent==='Unsaved changes')save();
+    const payload=JSON.stringify({name:p.name,description:p.description,language:p.language,environment:p.environment,files:p.files},null,2);
+    const url=URL.createObjectURL(new Blob([payload],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=(p.name.toLowerCase().replace(/[^a-z0-9]+/g,'-')||'project')+'-files.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),2000);activity('exported',p);toast('Project file set exported as JSON')
+  }
+  languages.forEach(lang=>{ $('new-language').add(new Option(lang,lang));$('preference-language').add(new Option(lang,lang));$('language-filter').add(new Option(lang,lang))});$('language-filter').add(new Option('All languages','',true,true),0);
+  $('new-language').value=state.preferences.language;renderSwitch();renderHome();applyPreferences();$('offline-status').textContent=navigator.serviceWorker?'Service workers supported; offline caching needs separately hosted files.':'Service workers unavailable in this embedded view.';
+  document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>show(b.dataset.view)));
+  $('project-switcher').onchange=e=>{state.selected=e.target.value;activeFile='index.html';persist();show('workspace')};
+  $('search').oninput=renderHome;$('language-filter').onchange=renderHome;$('sort-projects').onchange=renderHome;
+  $('new-form').onsubmit=e=>{e.preventDefault();const name=$('new-name').value.trim();if(!name)return;const p=sample(crypto.randomUUID?.()||String(Date.now()),name,$('new-language').value,$('new-description').value.trim(),$('new-environment').value,0);state.projects.unshift(p);state.selected=p.id;activeFile='index.html';persist();activity('created',p);renderSwitch();$('new-form').reset();$('new-language').value=state.preferences.language;show('workspace');toast('Project created')};
+  $('code-editor').oninput=()=>$('save-state').textContent='Unsaved changes';$('save-btn').onclick=save;
+  $('run-btn').onclick=()=>{if($('save-state').textContent==='Unsaved changes')save();const p=current();const html=p.files['index.html']||'';const css='<style>'+String(p.files['styles.css']||'').replace(/<\/style/gi,'<\\/style')+'</style>';const js='<script>'+String(p.files['app.js']||'').replace(/<\/script/gi,'<\\/script')+'<\\/script>';$('preview-frame').srcdoc=html.replace(/<link[^>]*href=["']styles\.css["'][^>]*>/gi,'').replace(/<script[^>]*src=["']app\.js["'][^>]*><\/script>/gi,'').replace(/<\/head>/i,css+'</head>').replace(/<\/body>/i,js+'</body>');$('preview-panel').hidden=false;activity('run',p);toast('Local preview refreshed')};
+  $('export-btn').onclick=exportFiles;
+  $('share-btn').onclick=async()=>{const p=current();if(!p)return;const text=`${p.name} — ${p.description||'A Siti Code project'}. Export the project to share its files.`;try{if(navigator.share)await navigator.share({title:p.name,text});else if(navigator.clipboard){await navigator.clipboard.writeText(text);toast('Project summary copied')}else{toast('Sharing is unavailable here. Use Export to download the project.');return}activity('shared',p)}catch(e){if(e.name!=='AbortError')toast('Sharing is unavailable. Use Export instead.')}};
+  $('rename-btn').onclick=()=>{$('rename-input').value=current().name;$('modal-backdrop').hidden=false;$('rename-input').focus()};
+  function closeModal(){$('modal-backdrop').hidden=true;$('rename-btn').focus()}
+  $('modal-cancel').onclick=closeModal;$('modal-backdrop').onclick=e=>{if(e.target===$('modal-backdrop'))closeModal()};document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!$('modal-backdrop').hidden)closeModal();if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='s'&&view==='workspace'){e.preventDefault();save()}});
+  $('rename-form').onsubmit=e=>{e.preventDefault();const p=current(),name=$('rename-input').value.trim();if(!name)return;p.name=name;p.edited=now();persist();activity('edited',p);renderSwitch();renderWorkspace();closeModal();toast('Project renamed')};
+  $('diagnostics-btn').onclick=diagnostics;$('clear-bugs-btn').onclick=()=>{const p=current();const count=state.bugs.filter(b=>b.project===p.id&&!b.resolved).length;state.bugs.forEach(b=>{if(b.project===p.id)b.resolved=true});if(count)activity('bug resolved',p);persist();renderBugs();renderWorkspaceBugs();toast(count?'Open issues cleared':'No open issues to clear')};
+  document.querySelectorAll('[data-bug-filter]').forEach(b=>b.onclick=()=>{bugFilter=b.dataset.bugFilter;document.querySelectorAll('[data-bug-filter]').forEach(x=>x.classList.toggle('active',x===b));renderBugs()});
+  $('suggestions').querySelectorAll('button').forEach(b=>b.onclick=()=>{$('chat-input').value=b.textContent;$('chat-form').requestSubmit()});
+  $('chat-form').onsubmit=e=>{e.preventDefault();const text=$('chat-input').value.trim();if(!text)return;bubble(text,'user');bubble(botReply(text),'bot');$('chat-input').value=''};
+  [['theme-select','theme'],['density-select','density'],['preference-language','language'],['notification-select','notifications']].forEach(([id,key])=>$(id).onchange=e=>{state.preferences[key]=e.target.value;persist();applyPreferences();toast('Preference saved')});
+  $('notifications-btn').onclick=()=>toast(state.preferences.notifications==='off'?'Notifications are turned off.':'You’re all caught up.');
+  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredInstall=e;$('install-btn').hidden=false});
+  $('install-btn').onclick=async()=>{if(!deferredInstall)return;deferredInstall.prompt();await deferredInstall.userChoice;deferredInstall=null;$('install-btn').hidden=true};
+  window.addEventListener('appinstalled',()=>{deferredInstall=null;$('install-btn').hidden=true;toast('App installed')});
+  /* A real deployment can publish /service-worker.js alongside this page.
+     Do not register an absent worker from the embedded Canva iframe. */
+  if(navigator.serviceWorker && location.protocol==='https:' && !location.pathname.includes('/_sdk/') && document.querySelector('meta[name="siti-hosted-pwa"]')){
+    navigator.serviceWorker.register('./service-worker.js').then(()=>$('offline-status').textContent='Offline worker registered.').catch(()=>$('offline-status').textContent='Offline worker unavailable; the workspace still works online.');
+  }
+})();
+</script>
+ 
+</body></html>
